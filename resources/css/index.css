@@ -20,6 +20,9 @@ a.link {
   color: black;
   margin-right: 15px;
 }
+.image {
+  padding-top: 10px;
+}
 .title {
 color: mediumaquamarine;
 }
@@ -30,22 +33,93 @@ color: mediumaquamarine;
 
 .maincontainer {
   display:flex;
+  justify-content: space-between;
+  overflow:scroll;
 }
 .column {
 display: flex;
-border: thin solid black;
+border: medium solid black;
 }
 .column.large {
   width: 630px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 
 .column.medium {
   width: 300px;
+  flex-direction: column;
 }
 
 .column.small {
   width: 240px;
+  flex-direction: column;
 }
 body {
   margin-top: 100px;
+}
+.tunaphish {
+display: flex
+border: thin solid black;
+background-image: url("../images/img-story-main.png");
+height: 300px;
+}
+#main {
+font-size: 40px;
+}
+
+.monument {
+  border: thin solid black;
+}
+.orca {
+  border: thin solid black;
+  width: 300px;
+}
+.earth {
+  display: flex;
+  border: thin solid black;
+  background-image: url("../images/img-story-2.png");
+  height: 300px;
+  width: 300px;
+}
+.burger {
+  border: thin solid black;
+  width:300px;
+}
+.camera {
+  display: flex;
+  border: thin solid black;
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
+  width: 300px;
+}
+.fbi {
+  border: thin solid black;
+}
+.cats {
+  display: flex;
+  border: thin solid black;
+  background-image: url("../images/img-story-1.png");
+  height: 300px;
+}
+.brooklyn {
+  border: thin solid black;
+}
+.newsbites {
+  border: thin solid black;
+}
+.cookie {
+  border: thin solid black;
+}
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+p.headline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }

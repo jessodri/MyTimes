@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: thin solid black;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+}
+div.links {
+  display: inline-block;
+  margin-right: 20px;
+}
+a.link {
+  color: black;
+  margin-right: 15px;
+}
+.title {
+color: mediumaquamarine;
+}
+.logo {
+  vertical-align: middle;
+  margin-left: 35px;
+}
+
+.maincontainer {
+  display:flex;
+}
+.column {
+display: flex;
+border: thin solid black;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+body {
+  margin-top: 100px;
+}
